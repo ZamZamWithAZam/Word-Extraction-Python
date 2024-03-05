@@ -62,7 +62,7 @@ def WriteToFile(inputList, outputFile):
         file.write(word + "\n")
 
 
-WriteToFile(AddToList(RemovingOfNewLines("FullBook.txt")), "WordList.txt")
+WriteToFile(AddToList(RemovingOfNewLines("InputFile.txt")), "WordList.txt")
 file = open("Blacklist.txt", "w")
 for word in Blacklisted:
     file.write(word + "\n")
