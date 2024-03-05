@@ -18,11 +18,11 @@ new blacklisted words by entering !quit. Blacklist.py will also show all the cur
 file works by saving the words to Blacklist.txt, so make sure the files are in the same directory. You can also enter 
 in the words manually straight into Blacklist.txt.
 
-WordExtractor.py works by filtering the words by comparing them to the current word list, and the current blacklist.
-This file also requires users to place the two .txt files in the same directory as the script. Once it finds words that
-have yet to be added to the word list or blacklist, it will prompt you on whether you'd like to add it to the word list.
-Entering "y" will add it to the word list, while "n" will add it to the blacklist. When all words have been cycled
-through, it will automatically save all changes to the respective files.
+WordExtractor.py works by filtering the words added to InputFile.txt by comparing them to the current word list, and the 
+current blacklist. This file also requires users to place the two .txt files in the same directory as the script. Once it finds 
+words that have yet to be added to the word list or blacklist, it will prompt you on whether you'd like to add it to the 
+word list. Entering "y" will add it to the word list, while "n" will add it to the blacklist. When all words have been 
+cycled through, it will automatically save all changes to the respective files.
 
 **NOTE**: All changes only occur after the program has been set to its "Quit" phase, and happen right before the program closes.
 Make sure to not close the programs before seeing that the program has successfully exited wiith exit code 0.
